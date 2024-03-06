@@ -23,7 +23,7 @@ body {
     position: relative;
 }
 
-#profilePicture, #profilePicture img {
+#groupPicture, #groupPicture img {
     position: relative;
     width: 96px;
     height: 96px;
