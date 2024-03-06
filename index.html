@@ -1,10 +1,52 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>My Cool Website</title>
-   </head>
-   <body>
-      <h1>Welcome to my website! ⭐️</h1>
-      <p>How was your day? 🎉</p>
-   </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Emerson | Linktree</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars0.githubusercontent.com/u/43749971" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="https://avatars0.githubusercontent.com/u/43749971" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="https://roogpt4.com/logo" target="_blank">
+            <img src="https://roogpt4.com/logo" alt="Group Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+            Grupo do clã GPT4
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="links">
+      <a class="link" href="https://discord.gg/u8kRUDQB" target="_blank">
+        <i class="fab fa-discord">&nbsp;</i>Discord
+      </a>
+      <a class="link" href="https://chat.whatsapp.com/C5zIi1C7L8E2ECFJlhg142" target="_blank">
+        <i class="fab fa-whatsapp">&nbsp;</i>Whatsapp
+      </a>
+    </div>
+
+  </body>
 </html>
